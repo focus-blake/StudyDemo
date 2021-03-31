@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyDemo", "StudyDemo\Stud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlTest", "XmlTest\XmlTest.csproj", "{FE703AD9-7682-4FB6-AB87-61DCA26FBAD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTest", "LinqTest\LinqTest.csproj", "{1EFE3013-A066-42EC-BA64-7CEEC7E868D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowserTest", "WebBrowserTest\WebBrowserTest.csproj", "{D7171132-09E0-4963-9F4A-902BFA95F5CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FE703AD9-7682-4FB6-AB87-61DCA26FBAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE703AD9-7682-4FB6-AB87-61DCA26FBAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE703AD9-7682-4FB6-AB87-61DCA26FBAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFE3013-A066-42EC-BA64-7CEEC7E868D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFE3013-A066-42EC-BA64-7CEEC7E868D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFE3013-A066-42EC-BA64-7CEEC7E868D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFE3013-A066-42EC-BA64-7CEEC7E868D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7171132-09E0-4963-9F4A-902BFA95F5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7171132-09E0-4963-9F4A-902BFA95F5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7171132-09E0-4963-9F4A-902BFA95F5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7171132-09E0-4963-9F4A-902BFA95F5CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

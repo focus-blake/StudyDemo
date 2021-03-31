@@ -1,0 +1,13 @@
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.exe
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.deps.json
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.runtimeconfig.json
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.runtimeconfig.dev.json
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\bin\Debug\netcoreapp3.1\LinqTest.pdb
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.csprojAssemblyReference.cache
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.AssemblyInfoInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.AssemblyInfo.cs
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.csproj.CoreCompileInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.pdb
+E:\CODE\DONET\MySelf\StudyDemo\LinqTest\obj\Debug\netcoreapp3.1\LinqTest.genruntimeconfig.cache

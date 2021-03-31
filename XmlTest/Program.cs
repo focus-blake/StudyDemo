@@ -110,7 +110,7 @@ namespace XmlTest
             }
             catch (Exception e)
             {
-                Console.WriteLine("存在多个符合条件的xml节点" + e.Message);
+                Console.WriteLine("存在多个符合条件的xml节点或节点不存在" + e.Message);
             } 
         }
     }
