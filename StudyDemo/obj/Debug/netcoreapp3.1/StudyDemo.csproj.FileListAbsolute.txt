@@ -1,0 +1,13 @@
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.exe
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.deps.json
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.runtimeconfig.json
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.runtimeconfig.dev.json
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.dll
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\bin\Debug\netcoreapp3.1\StudyDemo.pdb
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.csprojAssemblyReference.cache
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.AssemblyInfoInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.AssemblyInfo.cs
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.csproj.CoreCompileInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.dll
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.pdb
+E:\CODE\DONET\MySelf\StudyDemo\StudyDemo\obj\Debug\netcoreapp3.1\StudyDemo.genruntimeconfig.cache

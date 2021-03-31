@@ -1,0 +1,12 @@
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.exe
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.deps.json
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.runtimeconfig.json
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.runtimeconfig.dev.json
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\bin\Debug\netcoreapp3.1\XmlTest.pdb
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.AssemblyInfoInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.AssemblyInfo.cs
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.csproj.CoreCompileInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.pdb
+E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.genruntimeconfig.cache
