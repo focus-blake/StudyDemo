@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Text;
 using GalaSoft.MvvmLight;
 using LiveCharts;
+using LiveCharts.Defaults;
 using LiveCharts.Wpf;
 
 namespace LiveChartsDemo.ViewModels
@@ -42,6 +43,24 @@ namespace LiveChartsDemo.ViewModels
         /// </summary>
         public ChartInfo PieChartInfo { get { return _PieChartInfo; } set { _PieChartInfo = value; RaisePropertyChanged("PieChartInfo"); } }
         private ChartInfo _PieChartInfo = new ChartInfo();
+
+        /// <summary>
+        /// 散点图的点的集合
+        /// </summary>
+        public ChartValues<ObservablePoint> ValuesA { get { return _ValuesA; } set { _ValuesA = value; RaisePropertyChanged("ValuesA"); } }
+        private ChartValues<ObservablePoint> _ValuesA = new ChartValues<ObservablePoint>();
+
+        /// <summary>
+        /// 散点图的点的集合
+        /// </summary>
+        public ChartValues<ObservablePoint> ValuesB { get { return _ValuesB; } set { _ValuesB = value; RaisePropertyChanged("ValuesB"); } }
+        private ChartValues<ObservablePoint> _ValuesB = new ChartValues<ObservablePoint>();
+
+        /// <summary>
+        /// 散点图的点的集合
+        /// </summary>
+        public ChartValues<ObservablePoint> ValuesC { get { return _ValuesC; } set { _ValuesC = value; RaisePropertyChanged("ValuesC"); } }
+        private ChartValues<ObservablePoint> _ValuesC = new ChartValues<ObservablePoint>();
         #endregion
 
         #region 逻辑主体
@@ -162,9 +181,22 @@ namespace LiveChartsDemo.ViewModels
             PieChartInfo = PieChartInfo;
         }
 
+        /// <summary>
+        /// 生成散点图
+        /// </summary>
         private void CreatePointChart()
         {
-            Trace.WriteLine("散点图");
+            var r = new Random();
+            ValuesA = new ChartValues<ObservablePoint>();
+            ValuesB = new ChartValues<ObservablePoint>();
+            ValuesC = new ChartValues<ObservablePoint>();
+
+            for (var i = 0; i < 20; i++)
+            {
+                ValuesA.Add(new ObservablePoint(r.NextDouble() * 10, r.NextDouble() * 10));
+                ValuesB.Add(new ObservablePoint(r.NextDouble() * 10, r.NextDouble() * 10));
+                ValuesC.Add(new ObservablePoint(r.NextDouble() * 10, r.NextDouble() * 10));
+            }
         }
         #endregion
     }

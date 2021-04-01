@@ -46,6 +46,22 @@
 
             <!--饼图-->
             <lvc:PieChart Name="s3" Series="{Binding PieChartInfo.Series}" LegendLocation="Top" Grid.Column="0" Grid.Row="1" Margin="10"/>
+
+            <!--散点图-->
+            <lvc:CartesianChart Grid.Row="1" Grid.Column="1" Margin="10" LegendLocation="Bottom">
+                <lvc:CartesianChart.Series>
+                    <lvc:ScatterSeries Title="Series A" Values="{Binding ValuesA}" />
+                    <lvc:ScatterSeries Title="Series B" Values="{Binding ValuesB}"
+                                   PointGeometry="{x:Static lvc:DefaultGeometries.Diamond}" />
+                    <lvc:ScatterSeries Title="Series C" Values="{Binding ValuesC}"
+                                   PointGeometry="{x:Static lvc:DefaultGeometries.Triangle}"
+                                   StrokeThickness="2" Fill="Transparent"/>
+                </lvc:CartesianChart.Series>
+                <lvc:CartesianChart.AxisY>
+                    <!--setting the axis unit improved the labels rounding rule-->
+                    <lvc:Axis Unit="1"></lvc:Axis>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
         </Grid>
     </DockPanel>
 </Window>
