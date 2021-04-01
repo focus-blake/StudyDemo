@@ -1,0 +1,358 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Caliburn.Micro/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Caliburn.Micro.Core": "[3.2.0]"
+        },
+        "compile": {
+          "lib/net45/Caliburn.Micro.Platform.Core.dll": {},
+          "lib/net45/Caliburn.Micro.Platform.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Caliburn.Micro.Platform.Core.dll": {},
+          "lib/net45/Caliburn.Micro.Platform.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Caliburn.Micro.Core/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Caliburn.Micro.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Caliburn.Micro.dll": {}
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Caliburn.Micro/3.2.0": {
+      "sha512": "GILmeguZra44K77M0QFcLR+Xjp/3Vl6IkWs5aOQOYmxoqiO9YuGyK7/2Aha6jKR6LtR03yv3TVg8rkqeBDNZAA==",
+      "type": "package",
+      "path": "caliburn.micro/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "caliburn.micro.3.2.0.nupkg.sha512",
+        "caliburn.micro.nuspec",
+        "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.dll",
+        "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.xml",
+        "lib/MonoAndroid10/Caliburn.Micro.Platform.dll",
+        "lib/MonoAndroid10/Caliburn.Micro.Platform.xml",
+        "lib/MonoTouch10/Caliburn.Micro.Platform.Core.dll",
+        "lib/MonoTouch10/Caliburn.Micro.Platform.Core.dll.mdb",
+        "lib/MonoTouch10/Caliburn.Micro.Platform.Core.xml",
+        "lib/MonoTouch10/Caliburn.Micro.Platform.dll",
+        "lib/MonoTouch10/Caliburn.Micro.Platform.xml",
+        "lib/MonoTouch10/Caliburn.Micro.dll.mdb",
+        "lib/Xamarin.iOS10/Caliburn.Micro.Platform.Core.dll",
+        "lib/Xamarin.iOS10/Caliburn.Micro.Platform.Core.dll.mdb",
+        "lib/Xamarin.iOS10/Caliburn.Micro.Platform.Core.xml",
+        "lib/Xamarin.iOS10/Caliburn.Micro.Platform.dll",
+        "lib/Xamarin.iOS10/Caliburn.Micro.Platform.xml",
+        "lib/Xamarin.iOS10/Caliburn.Micro.dll.mdb",
+        "lib/net40/Caliburn.Micro.Platform.dll",
+        "lib/net40/Caliburn.Micro.Platform.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "lib/net45/Caliburn.Micro.Platform.Core.dll",
+        "lib/net45/Caliburn.Micro.Platform.Core.xml",
+        "lib/net45/Caliburn.Micro.Platform.dll",
+        "lib/net45/Caliburn.Micro.Platform.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/sl5/Caliburn.Micro.Platform.dll",
+        "lib/sl5/Caliburn.Micro.Platform.xml",
+        "lib/sl5/System.Windows.Interactivity.dll",
+        "lib/uap10.0/Caliburn.Micro.Platform.Core.dll",
+        "lib/uap10.0/Caliburn.Micro.Platform.Core.xml",
+        "lib/uap10.0/Caliburn.Micro.Platform.UWP.XML",
+        "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll",
+        "lib/uap10.0/Caliburn.Micro.Platform.UWP.pri",
+        "lib/uap10.0/Caliburn.Micro.Platform.UWP/Properties/Caliburn.Micro.Platform.UWP.rd.xml",
+        "lib/win81/Caliburn.Micro.Platform.Core.dll",
+        "lib/win81/Caliburn.Micro.Platform.Core.xml",
+        "lib/win81/Caliburn.Micro.Platform.XML",
+        "lib/win81/Caliburn.Micro.Platform.dll",
+        "lib/win81/Caliburn.Micro.Platform.pri",
+        "lib/win81/Microsoft.Xaml.Interactions.dll",
+        "lib/win81/Microsoft.Xaml.Interactivity.dll",
+        "lib/wp8/Caliburn.Micro.Platform.Core.dll",
+        "lib/wp8/Caliburn.Micro.Platform.Core.xml",
+        "lib/wp8/Caliburn.Micro.Platform.dll",
+        "lib/wp8/Caliburn.Micro.Platform.xml",
+        "lib/wp8/System.Windows.Interactivity.dll",
+        "lib/wpa81/Caliburn.Micro.Platform.Core.dll",
+        "lib/wpa81/Caliburn.Micro.Platform.Core.xml",
+        "lib/wpa81/Caliburn.Micro.Platform.dll",
+        "lib/wpa81/Caliburn.Micro.Platform.pri",
+        "lib/wpa81/Caliburn.Micro.Platform.xml",
+        "lib/wpa81/Microsoft.Xaml.Interactions.dll",
+        "lib/wpa81/Microsoft.Xaml.Interactivity.dll"
+      ]
+    },
+    "Caliburn.Micro.Core/3.2.0": {
+      "sha512": "jmpC4OSvejrrIlcSmlzFjtyOmHQBrKgqJ9hy/LeWGoytct0e2b+TVgzWHTtvkzBF6TWWYlWCNErF10O6hNoL0g==",
+      "type": "package",
+      "path": "caliburn.micro.core/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "caliburn.micro.core.3.2.0.nupkg.sha512",
+        "caliburn.micro.core.nuspec",
+        "lib/net40/Caliburn.Micro.XML",
+        "lib/net40/Caliburn.Micro.dll",
+        "lib/net45/Caliburn.Micro.dll",
+        "lib/net45/Caliburn.Micro.xml",
+        "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.XML",
+        "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll",
+        "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll.mdb",
+        "lib/sl5/Caliburn.Micro.XML",
+        "lib/sl5/Caliburn.Micro.dll"
+      ]
+    },
+    "MvvmLightLibs/5.4.1.1": {
+      "sha512": "xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
+      "type": "package",
+      "path": "mvvmlightlibs/5.4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/SL5/GalaSoft.MvvmLight.Extras.xml",
+        "lib/SL5/GalaSoft.MvvmLight.dll",
+        "lib/SL5/GalaSoft.MvvmLight.pdb",
+        "lib/SL5/GalaSoft.MvvmLight.xml",
+        "lib/SL5/System.Windows.Interactivity.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/monoandroid1/GalaSoft.MvvmLight.XML",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
+        "lib/net35/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net35/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net35/GalaSoft.MvvmLight.dll",
+        "lib/net35/GalaSoft.MvvmLight.pdb",
+        "lib/net35/GalaSoft.MvvmLight.xml",
+        "lib/net35/System.Windows.Interactivity.dll",
+        "lib/net35/System.Windows.Interactivity.xml",
+        "lib/net40/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net40/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net40/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net40/GalaSoft.MvvmLight.dll",
+        "lib/net40/GalaSoft.MvvmLight.pdb",
+        "lib/net40/GalaSoft.MvvmLight.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "lib/net45/GalaSoft.MvvmLight.Extras.dll",
+        "lib/net45/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/net45/GalaSoft.MvvmLight.Extras.xml",
+        "lib/net45/GalaSoft.MvvmLight.Platform.dll",
+        "lib/net45/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/net45/GalaSoft.MvvmLight.Platform.xml",
+        "lib/net45/GalaSoft.MvvmLight.dll",
+        "lib/net45/GalaSoft.MvvmLight.pdb",
+        "lib/net45/GalaSoft.MvvmLight.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.xml",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.pri",
+        "lib/windows81/GalaSoft.MvvmLight.Platform.xml",
+        "lib/windows81/GalaSoft.MvvmLight.dll",
+        "lib/windows81/GalaSoft.MvvmLight.pdb",
+        "lib/windows81/GalaSoft.MvvmLight.xml",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.Extras.xml",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.Platform.xml",
+        "lib/wp8/GalaSoft.MvvmLight.dll",
+        "lib/wp8/GalaSoft.MvvmLight.pdb",
+        "lib/wp8/GalaSoft.MvvmLight.xml",
+        "lib/wp8/System.Windows.Interactivity.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.Extras.xml",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.Platform.xml",
+        "lib/wp81/GalaSoft.MvvmLight.dll",
+        "lib/wp81/GalaSoft.MvvmLight.pdb",
+        "lib/wp81/GalaSoft.MvvmLight.xml",
+        "lib/wp81/System.Windows.Interactivity.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/wpa81/GalaSoft.MvvmLight.Platform.pri",
+        "lib/wpa81/GalaSoft.MvvmLight.XML",
+        "lib/wpa81/GalaSoft.MvvmLight.dll",
+        "lib/wpa81/GalaSoft.MvvmLight.pdb",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "mvvmlightlibs.5.4.1.1.nupkg.sha512",
+        "mvvmlightlibs.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Caliburn.Micro >= 3.2.0",
+      "MvvmLightLibs >= 5.4.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\CODE\\DONET\\MySelf\\StudyDemo\\LiveChartsTest\\MvvmTest.csproj",
+      "projectName": "MvvmTest",
+      "projectPath": "E:\\CODE\\DONET\\MySelf\\StudyDemo\\LiveChartsTest\\MvvmTest.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\CODE\\DONET\\MySelf\\StudyDemo\\LiveChartsTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Caliburn.Micro": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "MvvmLightLibs": {
+            "target": "Package",
+            "version": "[5.4.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Caliburn.Micro 3.2.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Caliburn.Micro",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Caliburn.Micro.Core 3.2.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Caliburn.Micro.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“MvvmLightLibs 5.4.1.1”。此包可能与项目不完全兼容。",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

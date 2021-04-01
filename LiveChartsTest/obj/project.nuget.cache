@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1l3gHyiWC6vjSivzWGblWMtN/d6QrMCohjvaEPfvRYlUYBn9pHCeE9BNRi58K7mk+g9g5X/uF/HKLElim/d1A==",
+  "success": true,
+  "projectFilePath": "E:\\CODE\\DONET\\MySelf\\StudyDemo\\LiveChartsTest\\MvvmTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\caliburn.micro\\3.2.0\\caliburn.micro.3.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\caliburn.micro.core\\3.2.0\\caliburn.micro.core.3.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Caliburn.Micro 3.2.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Caliburn.Micro",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Caliburn.Micro.Core 3.2.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Caliburn.Micro.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“MvvmLightLibs 5.4.1.1”。此包可能与项目不完全兼容。",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

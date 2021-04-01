@@ -1,0 +1,51 @@
+﻿<Window x:Class="LiveChartsDemo.Views.ChartsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LiveChartsDemo.Views"
+        xmlns:cal ="http://www.caliburnproject.org"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="LiveCharts各类图表使用演示" Height="900" Width="1600">
+    <DockPanel>
+        <!--图表类型列表-->
+        <ListView x:Name="ChartsGroup" DockPanel.Dock="Left" Width="200" Margin="10" ItemsSource="{Binding ChartGroup}" FontSize="16" 
+                  cal:Message.Attach="[Event SelectionChanged]=[Action ChoiceCharts(ChartsGroup.SelectedIndex)]"/>
+        
+        <!--图表区域-->
+        <Grid Background="Gray" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--条形图-->
+            <lvc:CartesianChart Name="s2" Series="{Binding BarChartInfo.Series}" Grid.Row="0" Grid.Column="0" LegendLocation="Top" Margin="10">
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Name="s2y" Title="区域" ></lvc:Axis>
+                </lvc:CartesianChart.AxisX>
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Name="s2x" Title="分数" MinValue="0" Labels="{Binding BarChartInfo.XLables}"></lvc:Axis>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
+
+            <!--折线图-->
+            <lvc:CartesianChart Name="s1" Series="{Binding LineChartInfo.Series}" LegendLocation="Top" Grid.Row="0" Grid.Column="1" Margin="10">
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Name="s1y" Title="分数" MinValue="0"></lvc:Axis>
+                </lvc:CartesianChart.AxisY>
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Name="s1x" Title="区域" Labels="{Binding LineChartInfo.XLables}"></lvc:Axis>
+                </lvc:CartesianChart.AxisX>
+            </lvc:CartesianChart>
+
+            <!--饼图-->
+            <lvc:PieChart Name="s3" Series="{Binding PieChartInfo.Series}" LegendLocation="Top" Grid.Column="0" Grid.Row="1" Margin="10"/>
+        </Grid>
+    </DockPanel>
+</Window>

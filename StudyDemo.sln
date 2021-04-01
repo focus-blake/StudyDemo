@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTest", "LinqTest\LinqTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBrowserTest", "WebBrowserTest\WebBrowserTest.csproj", "{D7171132-09E0-4963-9F4A-902BFA95F5CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTest", "IOTest\IOTest.csproj", "{74E41EAB-A414-41BE-8585-596D4365F6DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOTest", "IOTest\IOTest.csproj", "{74E41EAB-A414-41BE-8585-596D4365F6DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmTest", "LiveChartsTest\MvvmTest.csproj", "{39FCA1EC-8570-474B-86E5-069A124E4803}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveChartsDemo", "LiveChartsDemo\LiveChartsDemo.csproj", "{B3241812-B5B8-42FC-AA29-F76B72D4A303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{74E41EAB-A414-41BE-8585-596D4365F6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E41EAB-A414-41BE-8585-596D4365F6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E41EAB-A414-41BE-8585-596D4365F6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FCA1EC-8570-474B-86E5-069A124E4803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FCA1EC-8570-474B-86E5-069A124E4803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FCA1EC-8570-474B-86E5-069A124E4803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FCA1EC-8570-474B-86E5-069A124E4803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3241812-B5B8-42FC-AA29-F76B72D4A303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3241812-B5B8-42FC-AA29-F76B72D4A303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3241812-B5B8-42FC-AA29-F76B72D4A303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3241812-B5B8-42FC-AA29-F76B72D4A303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
