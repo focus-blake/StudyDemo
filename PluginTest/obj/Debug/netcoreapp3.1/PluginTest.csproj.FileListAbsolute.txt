@@ -1,0 +1,8 @@
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\bin\Debug\netcoreapp3.1\PluginTest.deps.json
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\bin\Debug\netcoreapp3.1\PluginTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\bin\Debug\netcoreapp3.1\PluginTest.pdb
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\obj\Debug\netcoreapp3.1\PluginTest.AssemblyInfoInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\obj\Debug\netcoreapp3.1\PluginTest.AssemblyInfo.cs
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\obj\Debug\netcoreapp3.1\PluginTest.csproj.CoreCompileInputs.cache
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\obj\Debug\netcoreapp3.1\PluginTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\PluginTest\obj\Debug\netcoreapp3.1\PluginTest.pdb

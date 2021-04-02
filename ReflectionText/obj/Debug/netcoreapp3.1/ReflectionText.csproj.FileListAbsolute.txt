@@ -10,3 +10,8 @@ E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\Reflection
 E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\ReflectionText.dll
 E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\ReflectionText.pdb
 E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\ReflectionText.genruntimeconfig.cache
+E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\ReflectionText.csprojAssemblyReference.cache
+E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
+E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\obj\Debug\netcoreapp3.1\ReflectionText.csproj.CopyComplete
+E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\bin\Debug\netcoreapp3.1\PluginTest.dll
+E:\CODE\DONET\MySelf\StudyDemo\ReflectionText\bin\Debug\netcoreapp3.1\PluginTest.pdb

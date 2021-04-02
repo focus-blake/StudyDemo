@@ -10,4 +10,3 @@ E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.csproj.Co
 E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.dll
 E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.pdb
 E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.genruntimeconfig.cache
-E:\CODE\DONET\MySelf\StudyDemo\XmlTest\obj\Debug\netcoreapp3.1\XmlTest.csprojAssemblyReference.cache

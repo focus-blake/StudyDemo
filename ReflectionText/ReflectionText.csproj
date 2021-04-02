@@ -1,8 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LiveCharts.Wpf">
+      <HintPath>C:\Users\Administrator\Desktop\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PluginTest">
+      <HintPath>..\PluginTest\bin\Debug\netcoreapp3.1\PluginTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>

@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmTest", "LiveChartsTest\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveChartsDemo", "LiveChartsDemo\LiveChartsDemo.csproj", "{B3241812-B5B8-42FC-AA29-F76B72D4A303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionText", "ReflectionText\ReflectionText.csproj", "{5373438B-93D6-40AB-B680-080E60F81188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionText", "ReflectionText\ReflectionText.csproj", "{5373438B-93D6-40AB-B680-080E60F81188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTest", "PluginTest\PluginTest.csproj", "{EFCA719C-9790-426A-845D-B7E6485D6D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5373438B-93D6-40AB-B680-080E60F81188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5373438B-93D6-40AB-B680-080E60F81188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5373438B-93D6-40AB-B680-080E60F81188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCA719C-9790-426A-845D-B7E6485D6D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCA719C-9790-426A-845D-B7E6485D6D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCA719C-9790-426A-845D-B7E6485D6D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCA719C-9790-426A-845D-B7E6485D6D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

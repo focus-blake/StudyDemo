@@ -119,7 +119,7 @@ namespace LiveChartsDemo.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/LiveChartsDemo;V1.0.0.0;component/views/chartsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/LiveChartsDemo;component/views/chartsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ChartsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

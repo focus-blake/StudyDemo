@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Reflection;
+using LiveCharts.Wpf;
+using PluginTest;
 
 namespace ReflectionText
 {
@@ -7,7 +9,161 @@ namespace ReflectionText
     {
         static void Main(string[] args)
         {
-            CreateObjForActivator();
+            ShowPublicMembers();
+        }
+
+        /// <summary>
+        /// 利用Assembly获取自己封装类库中的一些属性和方法
+        /// </summary>
+        static void GetCaliburn()
+        {
+            // 获取自己封装的dll
+            Assembly ass = Assembly.LoadFrom("PluginTest.dll");
+            // 获取类的类型
+            Type t = ass.GetType("PluginTest.FirstPlugin");
+            // 获取类的实例
+            object o = ass.CreateInstance(t.ToString());
+            // 设置属性调用方法FirstPlugin.Name的值
+            PropertyInfo p = t.GetProperty("Name");
+            p.SetValue(o, "孙中山");
+            // 调用方法FirstPlugin.Show()
+            MethodInfo m = t.GetMethod("Show");
+            ((FirstPlugin)o).Show();
+            // 打印属性的名字
+            Console.WriteLine(p.Name);
+
+            /*
+             * 输出：
+             * 调用方法FirstPlugin
+             * 孙中山
+             * Name
+             * */
+        }
+
+        /// <summary>
+        /// 用反射生成对象，并调用属性、方法和字段进行操作 
+        /// </summary>
+        static void ShowOthers()
+        {
+            ReflectionClass rc = new ReflectionClass();
+            Type t = rc.GetType();
+            object obj = Activator.CreateInstance(t);
+            //取得ID字段
+            FieldInfo fi = t.GetField("id");
+            //给ID字段赋值
+            fi.SetValue(obj, 1);
+            //取得Name属性
+            PropertyInfo piName = t.GetProperty("Name");
+            //给Name属性赋值
+            piName.SetValue(obj, "刘邦");
+            PropertyInfo piAge = t.GetProperty("Age");
+            piAge.SetValue(obj, "46");
+            PropertyInfo piSex = t.GetProperty("Sex");
+            piSex.SetValue(obj, "男");
+            //取得Show方法
+            MethodInfo mi = t.GetMethod("Show");
+            //调用Show方法
+            mi.Invoke(obj, null);
+            Console.WriteLine("ID为：" + ((ReflectionClass)obj).id);
+        }
+
+        /// <summary>
+        /// 返回成员的类型
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        static string ShowType(MemberTypes t)
+        {
+            switch (t)
+            {
+                case MemberTypes.Field:
+                    {
+                        return "字段";
+                    }
+                case MemberTypes.Method:
+                    {
+                        return "方法";
+                    }
+                case MemberTypes.Property:
+                    {
+                        return "属性";
+                    }
+                default:
+                    {
+                        return "未知";
+                    }
+            }
+        }
+
+        /// <summary>
+        /// 获取私有实例静态成员
+        /// </summary>
+        static void ShowPrivateStaticFieId()
+        {
+            FieldInfo f = new ReflectionClass().GetType().GetField("place", BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
+            if(f != null)
+                Console.WriteLine(f.Name);
+        }
+
+        /// <summary>
+        /// 获取私有实例成员（不包括父类）
+        /// BindingFlags.DeclaredOnly 不包括父类
+        /// </summary>
+        static void ShowPrivateMembers()
+        {
+            MethodInfo[] mArr = new ReflectionClass().GetType().GetMethods(BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+            foreach (MethodInfo m in mArr)
+            {
+                Console.WriteLine(m.Name);
+            }
+        }
+
+        /// <summary>
+        /// 获取所有公共成员
+        /// </summary>
+        static void ShowPublicMembers()
+        {
+            MemberInfo[] mArr = new ReflectionClass().GetType().GetMembers();
+            foreach (MemberInfo m in mArr)
+            {
+                Console.WriteLine("类型:" + ShowType(m.MemberType) + "---" + m.Name);
+            }
+        }
+
+        /// <summary>
+        /// 查看类中的公共字段
+        /// </summary>
+        static void ShowFieIds()
+        {
+            FieldInfo[] piArray = new ReflectionClass().GetType().GetFields();
+            foreach (FieldInfo pi in piArray)
+            {
+                Console.WriteLine(pi.Name);
+            }
+        }
+
+        /// <summary>
+        /// 查看类中的公共方法
+        /// </summary>
+        static void ShowMethods()
+        {
+            MethodInfo[] piArray = new ReflectionClass().GetType().GetMethods();
+            foreach (MethodInfo pi in piArray)
+            {
+                Console.WriteLine(pi.Name);
+            }
+        }
+
+        /// <summary>
+        /// 查看类中的属性
+        /// </summary>
+        static void ShowPropertys()
+        {
+            PropertyInfo[] piArray = new ReflectionClass().GetType().GetProperties();
+            foreach (PropertyInfo pi in piArray)
+            {
+                Console.WriteLine(pi.Name);
+            }
         }
 
         /// <summary>
@@ -78,6 +234,8 @@ namespace ReflectionText
         public int id;
 
         private string name;
+
+        private static string place = "BeiJing";
         /// <summary>
         /// 姓名
         /// </summary>
@@ -120,6 +278,11 @@ namespace ReflectionText
         public void Show()
         {
             Console.WriteLine("姓名：" + name + "\n" + "年龄：" + age + "\n" + "性别：" + sex);
+        }
+
+        private void ShowPrivate()
+        {
+            Console.WriteLine("我是私有方法");
         }
     }
 }
